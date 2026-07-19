@@ -3,7 +3,9 @@ langchain
 langchain-core
 langchain-community
 langchain-google-genai
+langchain-huggingface
 google-generativeai
 faiss-cpu
 pypdf
 python-dotenv
+sentence-transformers
