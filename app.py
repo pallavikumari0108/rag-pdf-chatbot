@@ -44,6 +44,8 @@ if uploaded_file is not None:
     st.success("✅ Vector Store Created Successfully!")
 
     retriever = get_retriever()
+    st.write("API Key Found:", bool(os.getenv("GOOGLE_API_KEY")))
+    st.write("Secret Found:", "GOOGLE_API_KEY" in st.secrets)
     llm = get_llm()
 
     # PDF Information
